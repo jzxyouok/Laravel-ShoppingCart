@@ -1,27 +1,25 @@
-# Laravel PHP Framework
+# Laravel 5.3 後端作品：購物車（含信用卡金流機制）
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## 使用技術
+* HTML5, CSS, Bootstrap, jQuery
+* Laravel 5.3 PHP Framework
+* MySQL Database
+* Package：Stripe
+* 支援行動裝置（RWD設計）
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## 註冊
+亦有登入、登出功能
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-ShoppingCart/signup.png)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## 首頁
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-ShoppingCart/index.png)
 
-## Official Documentation
+## 購物車
+含選單功能(減少數量、全部清除)、加總金額
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-ShoppingCart/shopping-cart.png)
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## 信用卡付款
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-ShoppingCart/checkout.png)
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## 個人購物清單（歷史紀錄）
+![](https://github.com/cora-chou/cora-chou.github.io/blob/master/img/Laravel-ShoppingCart/profile.png)
