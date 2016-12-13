@@ -5,6 +5,7 @@
 * Laravel 5.3 PHP Framework
 * MySQL Database
 * Package：Stripe
+https://stripe.com/
 * 支援行動裝置（RWD設計）
 
 ## 註冊
